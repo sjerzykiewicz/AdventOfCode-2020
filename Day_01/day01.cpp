@@ -11,6 +11,7 @@ int calcLenght(){
     while (file >> temp){
         i++;
     }
+    file.close();
     return i;
 }
 
@@ -34,6 +35,7 @@ int PartOne() {
         }
 
     }
+    file.close();
     return 0;
 }
 
@@ -57,6 +59,7 @@ int PartTwo(){
             }
         }
     }
+    file.close();
     return 0;
 }
 
